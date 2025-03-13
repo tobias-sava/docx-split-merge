@@ -36,7 +36,7 @@ Creates `merged.docx` with page breaks between documents.
 ## Quick Start
 1. Clone the repo:
    ```sh
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git && cd YOUR_REPO_NAME
+   git clone https://github.com/tobias-sava/docx-split-merge.git && cd docx-split-merge
    ```
 2. Install dependencies:
    ```sh
