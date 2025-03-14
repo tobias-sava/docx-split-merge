@@ -81,7 +81,7 @@ def main():
     # Merge command:
 
     merge_parser = subparsers.add_parser("merge", help="Merge multiple DOCX files into one.")
-    merge_parser.add_argument("files", narga="+", help="List of DOCX files to merge.")
+    merge_parser.add_argument("files", nargs="+", help="List of DOCX files to merge.")
     merge_parser.add_argument("--output", default="merged.docx", help="Output file name (default: merged.docx)")
 
     args = parser.parse_args()
